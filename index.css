@@ -52,5 +52,5 @@ b {
 
 .delayed {
   animation-name: fade-in;
-  animation-duration: 2s;
+  animation-duration: 6s;
 }

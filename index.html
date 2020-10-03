@@ -50,10 +50,6 @@
         opacity: 0%;
       }
 
-      75% {
-        opacity: 0%;
-      }
-
       100% {
         opacity: 100%;
       }
@@ -67,9 +63,14 @@
       margin-bottom: 4em;
     }
 
-    .delayed {
-      animation-name: fade-in;
-      animation-duration: 8s;
+    .delayed-0 {
+      opacity: 0;
+      animation: fade-in 1s ease-out 0.5s forwards;
+    }
+
+    .delayed-1 {
+      opacity: 0;
+      animation: fade-in 1s ease-out 8s forwards;
     }
   </style>
   <title>William Grant</title>
@@ -80,9 +81,13 @@
     <p><b>Hi.</b></p>
     <p>I'm William.</p>
     <p>I write programs that do things.</p>
-    <p>You can find my projects on my <a href='https://github.com/wdhg'>github</a>.</p>
   </div>
-  <div class='section delayed'>
+  <div class='section delayed-0'>
+    <p>You can find my projects on my <a href='https://github.com/wdhg'>github.</a></p>
+    <p>You can also find out more about me on my <a href='https://www.linkedin.com/in/wdhg/'>linkedin.</a></p>
+    <p>Thinking about hiring me? Here's my <a href='./cv.pdf'>CV.</a></p>
+  </div>
+  <div class='section delayed-1'>
     <p>...</p>
     <p>You're still here?</p>
     <p><b>Nice.</b></p>
